@@ -39,6 +39,9 @@
             displayName = [UIDevice currentDevice].name;
         }
         self.displayName = displayName;
+        NSLog(@"Voucher server kVoucherServiceNameFormat: %@", kVoucherServiceNameFormat);
+        NSLog(@"Voucher serviceName: %@", self.serviceName);
+        NSLog(@"Voucher displayName: %@", self.displayName);
     }
     return self;
 }
